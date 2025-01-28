@@ -1,13 +1,21 @@
 #A program to find the largest number in a list of integers.
 #Sort the list in ascending order without using the built-in sort() method
 
-
 def find_largest_number(numbers):
     largest = numbers[0]
     for num in numbers:
         if num > largest:
             largest = num
     return largest
+
+def find_smallest_number(numbers):
+    
+    n = len(numbers)
+    smallest = numbers[n-1]
+    for num in numbers:
+        if smallest > num:
+            smallest = num
+    return smallest
 
 def bubble_sort(numbers):
     
@@ -26,7 +34,10 @@ def main():
     numbers = [int(num) for num in user_input.split(',')]
     
     largest_number = find_largest_number(numbers)
-    print(f"The largest number in the list is: {largest_number}")
+    print(f"Largest number on the list: {largest_number}")
+    
+    smallest_number = find_smallest_number(numbers)
+    print(f"Smallest Number on the list: {smallest_number}")
     
     sorted_numbers = bubble_sort(numbers)
     print(f"The sorted list (Bubble Sort) is: {sorted_numbers}")
