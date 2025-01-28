@@ -29,7 +29,7 @@ def main():
     print(f"The largest number in the list is: {largest_number}")
     
     sorted_numbers = bubble_sort(numbers)
-    print(f"The sorted list in ascending order is: {sorted_numbers}")
+    print(f"The sorted list (Bubble Sort) is: {sorted_numbers}")
 
 if __name__ == "__main__":
     main()
