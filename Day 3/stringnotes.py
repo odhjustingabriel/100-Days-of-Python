@@ -1,5 +1,5 @@
+#Strings and String Manipulation Notes
 s = "abcdefghij"
-
 print(s[::-1])#reverse a string [jihgfedcba]
 print(s[::-2])#every 2nd letter from the end [jhfdb]
 print(s[::2])#every 2nd letter from the start [acegi]
@@ -13,11 +13,11 @@ print(data.split(',', 3))  #['apple', 'banana', 'cherry', 'dates,mangoes,oranges
 # Right split (rsplit)
 print(data.rsplit(',', 2))  #['apple,banana,cherry,dates', 'mangoes', 'oranges']
 
-# Remove leading/trailing characters
-dirty = "***Hello!!!***"
-print(dirty.strip('*!'))  # Hello
+# Remove leading characters
+dirty = "***Hello World!!!***"
+print(dirty.strip('*!'))  # Hello World
 
-# Custom stripping
+# Custom string stripping
 url = "https://www.example.com/"
 print(url.strip('htps:/'))  # www.example.com
 
