@@ -1,5 +1,5 @@
 #Prompts the user to input their age.
-#Calculates the number of days they’ve lived (approximate it to 365 days per year).
+#Calculates the number of days they’ve lived (approximate = 365 days/year).
 
 #Prompt user age
 age = int(input("Enter your age: "))
