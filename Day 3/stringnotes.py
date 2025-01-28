@@ -1,5 +1,7 @@
 #Strings and String Manipulation Notes
+
 s = "abcdefghij"
+
 print(s[::-1])#reverse a string [jihgfedcba]
 print(s[::-2])#every 2nd letter from the end [jhfdb]
 print(s[::2])#every 2nd letter from the start [acegi]
