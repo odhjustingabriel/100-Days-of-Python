@@ -17,8 +17,6 @@ def number_guessing_game():
         except ValueError:
             print("Invalid input. Please enter a number between 1 and 100.")
             continue
-        
-        sectret_number = number_guessing_game(guess)
 
         # Check if the guess is correct
         if guess == secret_number:
@@ -35,5 +33,4 @@ def number_guessing_game():
     # If the user runs out of attempts
     print(f"\nSorry, you've run out of attempts. The correct number was {secret_number}.")
 
-if __name__ == "__main__":
-    main()
+number_guessing_game()
