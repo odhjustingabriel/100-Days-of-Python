@@ -33,4 +33,5 @@ def main():
     # If the user runs out of attempts
     print(f"\nSorry, you've run out of attempts. The correct number was {secret_number}.")
 
-number_guessing_game()
+if __name__ == "__main__":
+    main()
