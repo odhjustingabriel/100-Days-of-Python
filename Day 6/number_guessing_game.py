@@ -4,7 +4,7 @@ def number_guessing_game():
     secret_number = random.randint(1, 100)
     attempts = 7
 
-    print("Welcome to the Number Guessing Game!")
+    print("Welcome to the Justin Number Guessing Game!")
     print("I have picked a number between 1 and 100. You have 7 attempts to guess it.")
 
     while attempts > 0:
