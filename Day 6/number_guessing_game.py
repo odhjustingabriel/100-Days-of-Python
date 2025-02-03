@@ -8,6 +8,7 @@ def number_guessing_game():
     print("I have picked a number between 1 and 100. You have 7 attempts to guess it.")
     print("Good Luck!")
 
+def main():
     while attempts > 0:
         print(f"\nYou have {attempts} attempts remaining.")
         try:
