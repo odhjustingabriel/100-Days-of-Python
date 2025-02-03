@@ -9,6 +9,7 @@ def number_guessing_game():
     print("Good Luck!")
 
 def main():
+    attempts = 7
     while attempts > 0:
         print(f"\nYou have {attempts} attempts remaining.")
         try:
