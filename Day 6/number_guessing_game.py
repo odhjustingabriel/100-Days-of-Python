@@ -6,6 +6,7 @@ def number_guessing_game():
 
     print("Welcome to the Justin Number Guessing Game!")
     print("I have picked a number between 1 and 100. You have 7 attempts to guess it.")
+    print("Good Luck!")
 
     while attempts > 0:
         print(f"\nYou have {attempts} attempts remaining.")
