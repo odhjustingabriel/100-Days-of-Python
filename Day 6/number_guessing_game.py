@@ -18,6 +18,8 @@ def main():
         except ValueError:
             print("Invalid input. Please enter a number between 1 and 100.")
             continue
+        
+        sectret_number = number_guessing_game(guess)
 
         # Check if the guess is correct
         if guess == secret_number:
