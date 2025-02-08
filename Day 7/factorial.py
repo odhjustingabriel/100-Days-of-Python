@@ -1,8 +1,13 @@
-import math
-
 def calculate_factorial(input_number):
-    factorial = math.factorial(input_number)
-    return factorial
+    if input_number < 0:
+        return "Factorial is not defined for negative numbers."
+    elif input_number == 0 or input_number == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, input_number + 1):
+            result *= i
+        return result
 
 def main():
         
