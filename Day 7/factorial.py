@@ -11,10 +11,10 @@ def calculate_factorial(input_number):
 
 def main():
         
- user_input = int(input("Enter Number: "))
- calculate_factorial(user_input)
+    user_input = int(input("Enter Number: "))
+    result = calculate_factorial(user_input)
  
- print(f"The factorial of {user_input} is {calculate_factorial(user_input)}")
+    print(f"The factorial of {user_input} is {result}")
 
     
 if __name__ == "__main__":
