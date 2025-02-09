@@ -11,7 +11,7 @@ Welcome to my **100 Days of Python** challenge! Over the next 100 days, I'll be 
 
 ## 🔥 Why Python for Cybersecurity?  
 Python is a go-to language for cybersecurity due to its:  
-🔹 **Ease of Use** –   
+🔹 **Ease of Use** –   Readable and beginner-friendly.
 🔹 **Powerful Libraries** – Supports cryptography, networking, and automation.  
 🔹 **Penetration Testing** – Used in tools like Nmap, Scapy, and Metasploit.  
 🔹 **Security Automation** – Speeds up vulnerability scanning and malware analysis.  
