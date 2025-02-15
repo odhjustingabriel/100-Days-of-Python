@@ -1,6 +1,6 @@
 def count_file_stats(file_path):
     try:
-        with open(file_path, 'r') as file:
+        with open (file_path, 'r') as file:
             content = file.read()
             
             # Count the number of lines
@@ -25,5 +25,5 @@ def count_file_stats(file_path):
         print(f"An error occurred: {e}")
 
 # Example usage
-file_path = 'example.txt'  # Replace with your file path
+file_path = 'C:\\Users\\odhju\\100-Days-of-Python\\text.txt'  # Replace with your file path
 count_file_stats(file_path)
