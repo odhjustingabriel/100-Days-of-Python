@@ -7,7 +7,7 @@ def divide_numbers():
         
         result = num1 / num2
         
-        print(f"The result of {num1} divided by {num2} is {result}")
+        print(f"The result of {num1} divided by {num2} is: {result}")
         break
         
     except ZeroDivisionError:
