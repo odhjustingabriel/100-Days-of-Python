@@ -16,7 +16,7 @@ def count_file_stats(file_path):
             num_words = len(words)
             
             # Counts the number of characters
-            num_chars = len(content)
+            num_chars = len(content.replace(" ", ""))
             
             # Results
             print(f"Number of lines: {num_lines}")
@@ -28,5 +28,6 @@ def count_file_stats(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-file_path = 'C:\\Users\\odhju\\100-Days-of-Python\\text.txt'  # Replace with your file path
+file_path = 'C:\\Users\\odhju\\100-Days-of-Python\\text.txt' # Replace with your file path
+
 count_file_stats(file_path)
