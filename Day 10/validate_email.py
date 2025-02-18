@@ -20,6 +20,8 @@ emails = [
     "no-at-sign.com",
     "user@.com",
     "@no-username.com"
+    "odhjustin@gmail.com"
+    "johndoe.com"
 ]
 
 for email in emails:
