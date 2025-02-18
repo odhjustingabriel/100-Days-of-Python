@@ -12,6 +12,7 @@ def validate_email(email):
 emails = [
     "test@example.com",
     "user.name+tag+sorting@example.com",
+    "invalid_email",
     "user@sub.example.com",
     "user@123.123.123.123",
     "user@[IPv6:2001:db8::1]",
@@ -19,8 +20,8 @@ emails = [
     "invalid-email@.com",
     "no-at-sign.com",
     "user@.com",
-    "@no-username.com"
-    "odhjustin@gmail.com"
+    "@no-username.com",
+    "odhjustin@gmail.com",
     "johndoe.com"
 ]
 
