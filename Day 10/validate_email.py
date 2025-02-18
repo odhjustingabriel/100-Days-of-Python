@@ -13,7 +13,7 @@ emails = [
     "test@example.com",
     "user.name+tag+sorting@example.com",
     "invalid_email",
-    "my-name-is.com"
+    "my-name-is.com",
     "user@sub.example.com",
     "user@123.123.123.123",
     "user@[IPv6:2001:db8::1]",
