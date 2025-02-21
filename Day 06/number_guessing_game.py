@@ -27,10 +27,10 @@ def number_guessing_game():
         else:
             print("Too High!")
 
-        # Decrement the number of attempts
+        # Decrement no. of attempts
         attempts -= 1
 
-    # If the user runs out of attempts
+    # If user runs out of attempts
     print(f"\nSorry, you've run out of attempts. The correct number was {secret_number}.")
 
 number_guessing_game()
