@@ -1,5 +1,5 @@
-#A program to find the largest number in a list of integers.
-#Sort the list in ascending order without using the built-in sort() method
+# A program to find the largest number in a list of integers.
+# Sort the list in ascending order without using the built-in sort() method
 
 def find_largest_number(numbers):
     
