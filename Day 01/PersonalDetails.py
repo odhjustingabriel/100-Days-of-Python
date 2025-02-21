@@ -5,9 +5,10 @@
 name = input("Enter name: ")
 age = input("Enter age: ")
 favorite_language = input("Enter favorite programming language: ")
+school = input("Where do you study: ")
 
-# Create the introduction
-introduction = f"Hello! My name is {name}. I am {age} years old, and my favorite programming language is {favorite_language}."
+personal_details = print(f"Hello! My name is {name}. I am {age} years olds {favorite_language}.")
+school_details = print(f"I study at {school} and my favorite programming language is {favorite_language}.")
 
-# Print the introduction
-print(introduction)
+print(personal_details)
+print(school_details)
