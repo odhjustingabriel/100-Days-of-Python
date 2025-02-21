@@ -1,5 +1,5 @@
 # Dictionaries and Sets
-# a program to count the frequency of each word in a user-provided text.
+# A program to count the frequency of each word in a user-provided text.
 
 def count_word_frequency(text):
     # Convert to lowercase to make the counting case-insensitive
@@ -14,7 +14,7 @@ def count_word_frequency(text):
     # Split the text into words
     words = text.split()
     
-    # dictionary to count the frequency of each word
+    # Dictionary to count the frequency of each word
     word_frequency = {}
     for word in words:
         if word in word_frequency: 
@@ -25,13 +25,12 @@ def count_word_frequency(text):
     return word_frequency
 
 def main():
-    # User text input
     user_input = input("Enter a text to analyze: ")
     
     # Count the frequency of each word
     frequency = count_word_frequency(user_input)
     
-    # Display the results
+    # Results
     print("\nWord Frequencies:")
     for word, count in frequency.items():
         print(f"{word}: {count}")
