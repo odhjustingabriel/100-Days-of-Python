@@ -1,6 +1,8 @@
+# Palindrome: a word or phrase that reads the same backwards as forwards
+
 def is_palindrome(input_string):
     cleaned_string = input_string.replace(" ", "").lower() # Remove spaces and convert to lowercase for uniformity
-    return cleaned_string == cleaned_string[::-1] # Check if the string reads the same backward as forward
+    return cleaned_string == cleaned_string[::-1] # Checks if string is a palindrome
 
 def main():
     user_input = input("Enter string: ")
