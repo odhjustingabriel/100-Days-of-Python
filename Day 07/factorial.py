@@ -1,4 +1,5 @@
 def calculate_factorial(input_number):
+    
     if input_number < 0:
         return "Factorial is not defined for negative numbers."
     elif input_number == 0 or input_number == 1:
