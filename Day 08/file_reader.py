@@ -28,6 +28,6 @@ def count_file_stats(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-file_path = 'C:\\Users\\odhju\\100-Days-of-Python\\text.txt' # Replace with your file path
+file_path = 'C:\\Users\\odhju\\100-Days-of-Python\\text.txt' # Replace with own file path
 
 count_file_stats(file_path)
